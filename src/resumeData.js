@@ -49,7 +49,7 @@ let resumeData = {
         "Achievements":""
       },
       {
-        "CompanyLogo":"images/Work/jiangnan.png",
+        "CompanyLogo":"images/Work/Jiangnan.png",
         "CompanyName":"Jiangnan University",
         "specialization":"⁍Graphic Designer\n⁍3D artist",
         "StartEndDate":"September 2018 - November 2008",
