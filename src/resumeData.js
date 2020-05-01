@@ -33,7 +33,7 @@ let resumeData = {
     ],
     "work":[
       {
-        "CompanyLogo":"images/work/CuteCenter.png",
+        "CompanyLogo":"images/Work/CuteCenter.png",
         "CompanyName":"NUS Keio CUTE Center",
         "specialization":"⁍UI Programmer and Gameplay Programmer for Unity 3D\n⁍Worked with VR platforms such as HTC Vive and Oculus\n⁍Worked with Leap Motion, Omni Tracker and custom controllers programmed with Ardunio\n⁍Worked with waterfall / agile methodologies.\n",
         "StartEndDate":"May 2016 - May 2020",
@@ -41,7 +41,7 @@ let resumeData = {
         "Achievements":"⁍Virtual Interactive Human Anatomy\nReImagine Education Awards 2019 (Gold) (VIHA)\nhttps://www.reimagine-education.com/regional-2019-award-winners/ \n\n ⁍Safesim\nBEST PAPER in Technology Steam, AUBEA 2018\nhttp://www.bdg.nus.edu.sg/documents/events/Post%20on%20AUBEA%20best%20paper%20award%202018.pdf\n\n⁍The LostFoxFire\nSelected for showcase at TokyoGameShow SOWN 2019\nhttps://www.4gamer.net/games/479/G047904/20190915054/"
       },
       {
-        "CompanyLogo":"images/work/pdstudio.png",
+        "CompanyLogo":"images/Work/pdstudio.png",
         "CompanyName":"PD Design Studios",
         "specialization":"⁍Tools and Editor Programmer for Unity 3D\n⁍AI Programming\n⁍Controls for cross Platform\n⁍Programming using in-house tools as well as 3rd party software\n⁍PS4 / XBox One Development\n⁍Android / IOS Development",
         "StartEndDate":"April 2015 - March 2016",
@@ -49,7 +49,7 @@ let resumeData = {
         "Achievements":""
       },
       {
-        "CompanyLogo":"images/work/jiangnan.png",
+        "CompanyLogo":"images/Work/jiangnan.png",
         "CompanyName":"Jiangnan University",
         "specialization":"⁍Graphic Designer\n⁍3D artist",
         "StartEndDate":"September 2018 - November 2008",
@@ -408,7 +408,7 @@ let resumeData = {
       {
         "name":"Artwork",
         "description":"Collection of programmer Artwork",
-        "imgurl":"images/portfolio/Artwork/5.png",
+        "imgurl":"images/portfolio/ArtWork/5.png",
         "internalDescription":"Artwork done by a student programmer",
         "modalPicURL": ["images/portfolio/Artwork/1.jpg",
                         "images/portfolio/Artwork/2.jpg",
