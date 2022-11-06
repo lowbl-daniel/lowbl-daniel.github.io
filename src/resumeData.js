@@ -12,13 +12,13 @@ let resumeData = {
           "className":"fa fa-linkedin"
         },
       ],
-    "aboutme":"I am currently a Software Engineer for NUS Cute Center and I graduated with a Bachelor in Science for Computer Science and Game Design at Digipen Singapore jointly under Singapore Institute of Technology (SIT).\n\nI have made my own game engine during my studies in Digipen that utilizes C and C++. In recent jobs, I have created games, simulations and progressive web apps with different languages, as well as worked with queries in MySQL and influxDB.I'm keen expand my technical knowledge in other fields.\n\nIf you wish to know more about my previous works, you may refer to Works for all the projects I have previously worked on.",
+    "aboutme":"I am currently a Software Engineer for GovTech Singapore and I graduated with a Bachelor in Science for Computer Science and Game Design at Digipen Singapore jointly under Singapore Institute of Technology (SIT).\n\nIn recent jobs, I have created games, simulations for progressive web apps and native apps in different languages and environments. I've also architected and setup workflows for the company, from doing git versioning to submodules, down to automating and configuring builds on Jenkins and automated scans on Sonarqube. I'm keen expand my technical knowledge in other fields.\n\nIf you wish to know more about my previous works, you may refer to Works for all the projects I have previously worked on.",
     "email": "lowbl.daniel@gmail.com",
     "website":"https://lowbl-daniel.github.io/.",
     "education":[
       {
         "SchoolLogo":"images/Education/Digipen.jpg",
-        "UniversityName":"Digipen Institute of Technology",
+        "UniversityName":"Digipen Institute of Technology - Singapore Institute Of Technology",
         "specialization":"Bachelor of Science in Computer Science & Game Design",
         "StartEndDate":"Sep 2011 - 2016",
         "Achievements":""
@@ -33,10 +33,18 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyLogo":"images/Work/Govtech.png",
+        "CompanyName":"GovTech Singapore",
+        "specialization":"⁍C# tools Programmer, Simulation Programmer for Digital Twins, DevOps for Native C# Desktop application\n⁍Translate requirements to implementation (MsSQL payload, AMQP realtime message structures) ",
+        "StartEndDate":"May 2019 - Present",
+        "Projects":"⁍Building Digital Twin for JTCSummit (Comissioned)\n⁍Building Digital Twin for WNC (Commissioned) \n⁍Building Digital Twin for PDD (In progress)\n⁍Touchscreen National Digital Twin of Singapore (Deployed to Science center Smart Nation Exhibit) \n⁍National level Digital Twin of Singapore map for JTC\n⁍Several Digital Twin POC with various government agencies",
+        "Achievements":"⁍IDC 2021 winner under Urban Planning and Land use (Open Digital Platform)"
+      },
+      {
         "CompanyLogo":"images/Work/CuteCenter.png",
         "CompanyName":"NUS Keio CUTE Center",
         "specialization":"⁍UI Programmer and Gameplay Programmer for Unity 3D\n⁍Worked with VR platforms such as HTC Vive and Oculus\n⁍Worked with Leap Motion, Omni Tracker and custom controllers programmed with Ardunio\n⁍Worked with waterfall / agile methodologies.\n",
-        "StartEndDate":"May 2016 - May 2020",
+        "StartEndDate":"May 2016 - May 2019",
         "Projects":"⁍Basic VIHA (VR anatomy curriculum based software)\n⁍Advanced VIHA ( VR anatomy observation simulation )\n⁍VISE ( VR Surgical Simulation )\n⁍SAFESIM ( First person multiplayer construction site simulation )\n⁍The LostFoxFire(Game that uses multisensory devices, VR / smell / heat).",
         "Achievements":"⁍Virtual Interactive Human Anatomy\nReImagine Education Awards 2019 (Gold) (VIHA)\nhttps://www.reimagine-education.com/regional-2019-award-winners/ \n\n ⁍Safesim\nBEST PAPER in Technology Steam, AUBEA 2018\nhttp://www.bdg.nus.edu.sg/documents/events/Post%20on%20AUBEA%20best%20paper%20award%202018.pdf\n\n⁍The LostFoxFire\nSelected for showcase at TokyoGameShow SOWN 2019\nhttps://www.4gamer.net/games/479/G047904/20190915054/"
       },
@@ -96,6 +104,66 @@ let resumeData = {
     ],
     "portfolio":[
       {
+        "name":"Open Digital Platform - JTC Summit",
+        "description":"JtcSummit is an commissioned Building digital twin used for building management by JTC",
+        "imgurl":"images/portfolio/jtcsummit/summit1.gif",
+        "internalDescription":"JTC summit (ODP) is a native app designed for the building's facility management. Data from BIM and the building's BOS systems as well as vendor's asset information are combined and visualized in 1 single app, as opposed to conventional building applications where one app is used to view 1 vertical system. \n\nDynamic devices such as robots and lifts can be seen during realtime and statuses for all devices are displayed on UI at their respective positions in realtime. Besides the 3D view, 2D dashboards are also available for viewing. Using the ODP, it becomes possible to overlay different verticals on top of 1 another to do sense making with workflow/rule engines.\n\nAsset tracking can also be done in a fully 3d environment with seamless navigation in 1st or 3rd person view. View and download historical data for various verticals such as cctv feed for incident reporting etc.",
+        "modalPicURL": ["images/portfolio/jtcsummit/summit2.gif", 
+                        "images/portfolio/jtcsummit/summit3.gif", 
+                        "images/portfolio/jtcsummit/summit4.gif"],
+        "videoURL":"",
+        "awards":"",
+        "roles":"C# Simulation programmer\nTools Programmer",
+      },
+      {
+        "name":"Open Digital Platform - WNC",
+        "description":"WNC is an commissioned Building digital twin used for building management by JTC",
+        "imgurl":"images/portfolio/wnc/wnc1.gif",
+        "internalDescription":"WNC (ODP) is a native app designed for the building's facility management. Data from BIM and the building's BOS systems as well as vendor's asset information are combined and visualized in 1 single app, as opposed to conventional building applications where one app is used to view 1 vertical system. \n\nDynamic devices like lifts can be seen during realtime and statuses for all devices are displayed on UI at their respective positions in realtime. Besides the 3D view, 2D dashboards are also available for viewing. Using the ODP, it becomes possible to overlay different verticals on top of 1 another to do sense making with workflow/rule engines.\n\nAsset tracking can also be done in a fully 3d environment with seamless navigation in 1st or 3rd person view. View and download historical data for various verticals such as cctv feed for incident reporting etc.",
+        "modalPicURL": ["images/portfolio/wnc/wnc2.png", 
+                        "images/portfolio/wnc/wnc3.png", 
+                        "images/portfolio/wnc/wnc4.png"],
+        "videoURL":"",
+        "awards":"",
+        "roles":"c# Simulation programmer\nTools Programmer",
+      },
+      {
+        "name":"NEA site",
+        "description":"NEA site is a proof of concept digital twin for building management",
+        "imgurl":"images/portfolio/nea/nea1.png",
+        "internalDescription":"NEA is a native app designed for the building's facility management. Data from various sources are combined and visualized in 1 single app, as opposed to conventional building applications where one app is used to view 1 vertical system.\n\nRealtime statuses for all devices are displayed on UI at their respective positions in realtime.Besides the 3D view, 2D dashboards are also available for viewing. Using the ODP, it becomes possible to overlay different verticals on top of 1 another to do sense making with workflow/rule engines, do asset tracking in a fully 3d environment with seamless navigation in 1st or 3rd person view.\n\nNEA is a POC so there is also a tenant management section that allows the user to see their current tenants and statuses from a 3d overview.",
+        "modalPicURL": ["images/portfolio/nea/nea2.png", 
+                        "images/portfolio/nea/nea3.png", 
+                        "images/portfolio/nea/nea4.png"],
+        "videoURL":"",
+        "awards":"",
+        "roles":"c# Simulation programmer\nTools Programmer",
+      },
+      {
+        "name":"Science center exhibit",
+        "description":"Science center exhibit is a National Digital twin",
+        "imgurl":"images/portfolio/sciencecenter/playscape1.png",
+        "internalDescription":"Science center exhibit is a native app designed for public viewing at the Smart Nation exhibit at the science center. People will be able to navigate on a wide touchscreen with finger swipes and view sensors represented by 3D UI in realtime.",
+        "modalPicURL": ["images/portfolio/sciencecenter/playscape1.png", 
+                        "images/portfolio/sciencecenter/playscape2.png", 
+                        "images/portfolio/sciencecenter/playscape3.png"],
+        "videoURL":"https://www.youtube.com/embed/JTeRqQSfIOA",
+        "awards":"",
+        "roles":"c# Simulation programmer\nTools Programmer",
+      },
+      {
+        "name":"Open Digital Platform - Singapore Map",
+        "description":"Singapore Map is a national level digital twin",
+        "imgurl":"images/portfolio/sgmap/sgmap.gif",
+        "internalDescription":"Singapore mapis a native app designed for JTC FM to overlay multiple sets data on a 3D national map of Singapore from apis to do sense making. Currently, sgmap has a combination of public and closed sources data as it is gathered for JTC FM usage",
+        "modalPicURL": ["images/portfolio/sgmap/sgmap1.png", 
+                        "images/portfolio/sgmap/sgmap2.png", 
+                        "images/portfolio/sgmap/sgmap3.png"],
+        "videoURL":"",
+        "awards":"",
+        "roles":"c# Simulation programmer\nTools Programmer",
+      },
+      {
         "name":"Virtual Interactive Human Anatomy",
         "description":"A VR project that enhances the user's knowledge of anatomy.",
         "imgurl":"images/portfolio/basicVIHA/VIHA.gif",
@@ -105,7 +173,7 @@ let resumeData = {
                         "images/portfolio/basicVIHA/VIHA3.png"],
         "videoURL":"",
         "awards":"ReImagine Education Conference 2018 Gold for Regional 2019 : Asia-Pacific category\nhttps://www.reimagine-education.com/regional-2019-award-winners/",
-        "roles":"Unity Gameplay programmer\nTools Programmer",
+        "roles":"Simulation programmer\nTools Programmer",
       },
       {
         "name":"Lost FoxFire",
@@ -129,7 +197,7 @@ let resumeData = {
                         "images/portfolio/AdvancedVIHA/AVIHA3.png"],
         "videoURL":"",
         "awards":"",
-        "roles":"Unity Gameplay programmer",
+        "roles":"Simulation programmer",
       },
       {
         "name":"Safesim",
@@ -141,7 +209,7 @@ let resumeData = {
                         "images/portfolio/safesim/safesim3.png"],
         "videoURL":"https://www.youtube.com/embed/o3-Eir_wa_w",
         "awards":"BEST PAPER in Technology Steam, AUBEA 2018\nhttp://www.bdg.nus.edu.sg/documents/events/Post%20on%20AUBEA%20best%20paper%20award%202018.pdf",
-        "roles":"Unity Gameplay programmer\nTools Programmer",
+        "roles":"Simulation programmer\nTools Programmer",
       },
       {
         "name":"Ecosperity",
@@ -151,7 +219,7 @@ let resumeData = {
         "modalPicURL": ["images/portfolio/Ecosperity/web2.png"], 
         "videoURL":"",
         "awards":"",
-        "roles":"FrontEnd Programmer(React, NodeJS, InfluxDB)",
+        "roles":"FullStack Programmer(React, NodeJS, InfluxDB)",
       },
       {
         "name":"Virtual Interactive Car Anatomy",
@@ -163,7 +231,7 @@ let resumeData = {
                        "images/portfolio/VICA/VICA3.png"], 
         "videoURL":"",
         "awards":"",
-        "roles":"Unity Gameplay programmer",
+        "roles":"Simulation programmer",
       },
       {
         "name":"VISE",
@@ -175,7 +243,7 @@ let resumeData = {
                        "images/portfolio/VISE/vise3.png"], 
         "videoURL":"",
         "awards":"",
-        "roles":"Unity Gameplay programmer",
+        "roles":"Simulation programmer",
       },
       {
         "name":"Paediatric Anaesthesia",
@@ -195,7 +263,7 @@ let resumeData = {
         "modalPicURL": ["images/portfolio/BrainAR/brainAR.png"], 
         "videoURL":"https://www.youtube.com/embed/4VMmh3n1pG4",
         "awards":"",
-        "roles":"Unity Gameplay programmer",
+        "roles":"Simulation programmer",
       },
       {
         "name":"Dusty's Revenge Raging Fist",
