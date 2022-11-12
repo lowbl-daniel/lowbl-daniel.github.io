@@ -68,39 +68,145 @@ let resumeData = {
     "skillsDescription":"Language / IDE proficiencies",
     "skills":[
       {
-        "skillname":"C"
+        "type":"Language",
+        "skillname":"C",
+        "duration":"1 year",
+        "projectcount":"3 Projects",
+        "barclass":"c",
       },
       {
-        "skillname":"C++"
+        "type":"Language",
+        "skillname":"C++",
+        "duration":"3 years",
+        "projectcount":"3 Projects",
+        "barclass":"cplusplus",
       },
       {
-        "skillname":"C#"
+        "type":"Language",
+        "skillname":"C#",
+        "duration":"1 year",
+        "projectcount":"1 Project",
+        "barclass":"csharp",
       },
       {
-        "skillname":"CSS"
+        "type":"Language",
+        "skillname":"CSS",
+        "duration":"1 year",
+        "projectcount":"3 Projects",
+        "barclass":"css",
       },
       {
-        "skillname":"HTML5"
+        "type":"Language",
+        "skillname":"HTML5",
+        "duration":"0.5 year",
+        "projectcount":"1 Project",
+        "barclass":"html5",
+      },
+      {
+        "type":"Language",
+        "skillname":"Python",
+        "duration":"1 year",
+        "projectcount":"2 Projects",
+        "barclass":"python",
       },
 	    {
-        "skillname":"Javascript"
+        "type":"Language",
+        "skillname":"Javascript",
+        "duration":"1 year",
+        "projectcount":"3 Projects",
+        "barclass":"javascript",
       },
       {
-        "skillname":"MySQL"
+        "type":"Query Language",
+        "skillname":"MySQL",
+        "duration":"3 years",
+        "projectcount":"2 Projects",
+        "barclass":"mysql",
       },
       {
-        "skillname":"Photoshop"
+        "type":"Query Language",
+        "skillname":"InfluxQL",
+        "duration":"0.5 year",
+        "projectcount":"1 Projects",
+        "barclass":"influxql",
       },
       {
-        "skillname":"Illustrator"
+        "type":"Query Language",
+        "skillname":"MsSQL",
+        "duration":"1 year",
+        "projectcount":"1 Project",
+        "barclass":"mssql",
       },
       {
-        "skillname":"AfterEffects"
+        "type":"IDE",
+        "skillname":"React",
+        "duration":"1 year",
+        "projectcount":"3 Projects",
+        "barclass":"react",
       },
       {
-        "skillname":"Autodesk"
+        "type":"IDE",
+        "skillname":"NodeJS",
+        "duration":"1 years",
+        "projectcount":"3 Projects",
+        "barclass":"nodejs",
       },
-      
+      {
+        "type":"IDE",
+        "skillname":"SourceTree",
+        "duration":"5 years",
+        "projectcount":"",
+        "barclass":"sourcetree",
+      },
+      {
+        "type":"IDE",
+        "skillname":"Jenkins",
+        "duration":"2 years",
+        "projectcount":"5 Projects",
+        "barclass":"jenkins",
+      },
+      {
+        "type":"Version Control",
+        "skillname":"SVN",
+        "duration":"3 years",
+        "projectcount":"",
+        "barclass":"svn",
+      },
+      {
+        "type":"Version Control",
+        "skillname":"GIT",
+        "duration":"5 years",
+        "projectcount":"",
+        "barclass":"git",
+      },
+      {
+        "type":"Tool",
+        "skillname":"Photoshop",
+        "duration":"3 years",
+        "projectcount":"",
+        "barclass":"photoshop",
+      },
+      {
+        "type":"Tool",
+        "skillname":"Illustrator",
+        "duration":"2 year",
+        "projectcount":"",
+        "barclass":"illustrator",
+      },
+      {
+        "type":"Tool",
+        "skillname":"After Effects",
+        "duration":"1 year",
+        "projectcount":"",
+        "barclass":"aftereffects",
+      },
+      {
+        "type":"Tool",
+        "skillname":"3Ds Max",
+        "duration":"2 years",
+        "projectcount":"",
+        "barclass":"autodesk3dmax",
+      },
     ],
     "portfolio":[
       {
@@ -169,9 +275,9 @@ let resumeData = {
         "imgurl":"images/portfolio/basicVIHA/VIHA.gif",
         "internalDescription":"A VR project that enhances the user's knowledge of anatomy. The software is split up into six different modules, each focusing on a different section of the body. Information is disseminated to the user with a lecturer's voice, accompanied by the appearance of 3D representations of the anatomy and annotations to better illustrate the concept. Users may also use their controller to point a the models to get the name of that specific body Part. They may also scroll the Vive Trackpad forward or backwards to fast forward or rewind if they miss out on some information. Users may also be quizzed occasionally.",
         "modalPicURL": ["images/portfolio/basicVIHA/VIHA1.png", 
-                        "images/portfolio/basicVIHA/VIHA2.png", 
+                        "images/portfolio/basicVIHA/VIHA.gif", 
                         "images/portfolio/basicVIHA/VIHA3.png"],
-        "videoURL":"",
+        "videoURL":"https://www.youtube.com/embed/iB9ezi-Q9r4",
         "awards":"ReImagine Education Conference 2018 Gold for Regional 2019 : Asia-Pacific category\nhttps://www.reimagine-education.com/regional-2019-award-winners/",
         "roles":"Simulation programmer\nTools Programmer",
       },
@@ -229,7 +335,7 @@ let resumeData = {
         "modalPicURL": ["images/portfolio/VICA/VICA1.jpg",
                        "images/portfolio/VICA/VICA2.png",
                        "images/portfolio/VICA/VICA3.png"], 
-        "videoURL":"",
+        "videoURL":"https://www.youtube.com/embed/hv_KnNXor44",
         "awards":"",
         "roles":"Simulation programmer",
       },
@@ -241,7 +347,7 @@ let resumeData = {
         "modalPicURL": ["images/portfolio/VISE/vise1.png",
                        "images/portfolio/VISE/vise2.png",
                        "images/portfolio/VISE/vise3.png"], 
-        "videoURL":"",
+        "videoURL":"https://www.youtube.com/embed/IZpwYZB3ZXg",
         "awards":"",
         "roles":"Simulation programmer",
       },

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import BasicCard from './Card';
 
 export default  class Resume extends Component {
   render() {
@@ -87,31 +88,21 @@ export default  class Resume extends Component {
 
             <div className="ten columns main-col">
 
-               <p>
-               {resumeData.skillsDescription}
-               </p>
-
-   				<div className="bars">
-
-   				   <ul className="skills">
-                {
-                  resumeData.skills && resumeData.skills.map((item) => {
-                    return(
-                      <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase().replace('++', 'plusplus').replace('#', 'sharp')}`}>
-                      </span><em>{item.skillname}</em>
-                      </li>
-                    )
-                  })
-                }
-
-   					</ul>
-
-   				</div>
+              <div id="skill-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+              {
+                resumeData.skills && resumeData.skills.map((item) => {
+                    return ( 
+                      <div className="columns portfolio-item">
+                      {BasicCard(item.type, item.skillname, item.duration, item.projectcount, item.barclass)}
+                      </div>
+                      )
+                })
+              }
+              </div>
+               </div>
 
    			</div>
 
-         </div>
 
       </section>
     );

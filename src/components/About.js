@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -27,18 +28,9 @@ export default class About extends Component {
                   <div className="columns contact-details">
 
                   <h2>Contact Details</h2>
-                  <p className="address">
-                   {
-                       "Email: ".concat(resumeData.email)
-                   /* <span>{"resumeData.name"}</span>
-
-                     <br></br>
-       						   <span>
-                     {resumeData.address}
-                    </span>
-                    <br></br>
-                    <span>{resumeData.website}</span> */}
-       					   </p>
+                  <p className="address">       
+                  Email: {resumeData.email}
+       				</p>
                   </div>
                </div>
             </div>
