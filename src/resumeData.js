@@ -84,8 +84,8 @@ let resumeData = {
       {
         "type":"Language",
         "skillname":"C#",
-        "duration":"1 year",
-        "projectcount":"1 Project",
+        "duration":"8 year",
+        "projectcount":"18 Project",
         "barclass":"csharp",
       },
       {
@@ -119,7 +119,7 @@ let resumeData = {
       {
         "type":"Query Language",
         "skillname":"MySQL",
-        "duration":"3 years",
+        "duration":"1 years",
         "projectcount":"2 Projects",
         "barclass":"mysql",
       },
