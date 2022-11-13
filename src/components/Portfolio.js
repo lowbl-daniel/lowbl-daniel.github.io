@@ -16,7 +16,7 @@ export default class Porfolio extends Component {
 
  toggleModal = (key, title, msg, vidURL, award, role) => {
    this.setState({
-      showModal: !this.state.showModal,
+       showModal: !this.state.showModal,
        modalKey: key,
        modalTitle: title,
        modalMsg: msg,
@@ -61,8 +61,8 @@ export default class Porfolio extends Component {
             <Modal
               show={this.state.showModal}
               closeCallback={() => {this.toggleModal(null, "" , "", "", "", "")}}
-              customClass="custom_modal_class"
-            >
+              customClass="custom_modal_class">
+
               <React.Fragment>
                 <h2>{this.state.modalTitle}</h2>
                   {this.state.modalVideo !== "" &&

@@ -2,8 +2,6 @@ A simple React portfolio built on the template provided by
 http://hits.dwyl.io/rbhatia46/React-Portfolio
 and modified by lowbl-daniel.
 
-Note that I am not a webdeveloper so there may be better ways to approach the modified syntax.
-
 ## How to use
 1. Clone/Download the repo.
 2. Run  ``` npm install ```.

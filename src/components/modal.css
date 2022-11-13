@@ -15,6 +15,8 @@
     height: 100%;
     z-index: 995;
     background: rgba(0,0,0,0.85);
+    margin: 0;
+    overflow: hidden;
   }
   
   .modal .modal_content {
