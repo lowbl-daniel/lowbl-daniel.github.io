@@ -472,6 +472,26 @@ ul#nav li.current a { color: #F06000; }
    -moz-animation: c 2s ease;
    -webkit-animation: c 2s ease;
 }
+.unityge{
+   width: 90%;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
+.unrealge{
+   width: 30%;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
+.torquege{
+   width: 10%;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
+.constructge{
+   width: 10%;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
 .sourcetree {
    width: 70%;
    -moz-animation: c 2s ease;
