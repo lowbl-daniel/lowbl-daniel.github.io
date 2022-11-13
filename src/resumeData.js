@@ -46,7 +46,7 @@ let resumeData = {
         "specialization":"⁍UI Programmer and Gameplay Programmer for Unity 3D\n⁍Worked with VR platforms such as HTC Vive and Oculus\n⁍Worked with Leap Motion, Omni Tracker and custom controllers programmed with Ardunio\n⁍Worked with waterfall / agile methodologies.\n",
         "StartEndDate":"May 2016 - May 2019",
         "Projects":"⁍Basic VIHA (VR anatomy curriculum based software)\n⁍Advanced VIHA ( VR anatomy observation simulation )\n⁍VISE ( VR Surgical Simulation )\n⁍SAFESIM ( First person multiplayer construction site simulation )\n⁍The LostFoxFire(Game that uses multisensory devices, VR / smell / heat).",
-        "Achievements":"⁍Virtual Interactive Human Anatomy\nReImagine Education Awards 2019 (Gold) (VIHA)\nhttps://www.reimagine-education.com/regional-2019-award-winners/ \n\n ⁍Safesim\nBEST PAPER in Technology Steam, AUBEA 2018\nhttp://www.bdg.nus.edu.sg/documents/events/Post%20on%20AUBEA%20best%20paper%20award%202018.pdf\n\n⁍The LostFoxFire\nSelected for showcase at TokyoGameShow SOWN 2019\nhttps://www.4gamer.net/games/479/G047904/20190915054/"
+        "Achievements":"⁍Virtual Interactive Human Anatomy\nReImagine Education Awards 2019 (Gold) (VIHA) \n\n ⁍Safesim\nBEST PAPER in Technology Steam, AUBEA 2018\n\n⁍The LostFoxFire\nSelected for showcase at Tokyo Game Show SOWN 2019"
       },
       {
         "CompanyLogo":"images/Work/pdstudio.png",
