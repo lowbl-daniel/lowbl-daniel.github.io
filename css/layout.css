@@ -266,11 +266,19 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+#resume .education {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 10px solid #E8E8E8;
 }
+
+#resume .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 10px solid #E8E8E8;
+}
+
+
 #resume .info {
    font: 16px/24px 'opensans-regular', sans-serif;
    color: #6E7881;
@@ -299,12 +307,57 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
-
 #resume .resumeImg{
    background: #fff;
    overflow: hidden;
    position: relative;
 }
+
+#resume .skill{
+   background: #ff00;
+   overflow: hidden;
+   position: relative;
+}
+
+#resume .item-wrap
+{
+      display: block;
+   color: #fff;
+   height: 30px;
+   width: 30px;
+   font-size: 18px;
+   line-height: 30px;
+   text-align: center;
+
+   opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+
+   -webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-left: -15px;
+   margin-top: -15px;
+}
+
+#skill-wrapper .columns { margin-bottom: 36px; }
+.portfolio-item .item-wrap {
+   background: #fff;
+   overflow: hidden;
+   position: relative;
+
+   -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -316,14 +369,14 @@ ul#nav li.current a { color: #F06000; }
 	text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
+  	margin-top: 5px;
    list-style: none;
 }
 .bars li {
    position: relative;
-  	margin-bottom: 60px;
+  	margin-bottom: 5px;
   	background: #ccc;
-  	height: 42px;
+  	height: 22px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -336,16 +389,16 @@ ul#nav li.current a { color: #F06000; }
 	top: -36px;
 }
 .bar-expand {
-   position: absolute;
+   position: relative;
    left: 0;
    top: 0;
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #0F9095;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
+  	height: 22px;
+   line-height: 22px;
    border-radius: 3px 0 0 3px;
 }
 
@@ -369,8 +422,8 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.autodesk {
-   width: 60%;
+.autodesk3dmax {
+   width: 50%;
    -moz-animation: c 2s ease;
    -webkit-animation: c 2s ease;
 }
@@ -404,7 +457,51 @@ ul#nav li.current a { color: #F06000; }
    -moz-animation: c 2s ease;
    -webkit-animation: c 2s ease;
 }
-
+.python {
+   width: 30%;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
+.svn {
+   width: 30%;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
+.git {
+   width: 70%;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
+.sourcetree {
+   width: 70%;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
+.jenkins {
+   width: 70%;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
+.influxql {
+   width: 10%;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
+.mssql {
+   width: 10%;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
+.React {
+   width: 40%;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
+.NodeJS {
+   width: 10%;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 70%;  }
