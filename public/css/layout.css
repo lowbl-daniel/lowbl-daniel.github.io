@@ -433,12 +433,12 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 .c {
-   width: 80%;
+   width: 60%;
    -moz-animation: c 2s ease;
    -webkit-animation: c 2s ease;
 }
 .cplusplus {
-   width: 85%;
+   width: 75%;
    -moz-animation: c 2s ease;
    -webkit-animation: c 2s ease;
 }
