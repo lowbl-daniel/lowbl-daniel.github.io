@@ -51,7 +51,6 @@ export default class Porfolio extends Component {
    );
  }
 
- //this.SetupModal = this.SetupModalHelper.bind(this);
 }
 
  
@@ -93,19 +92,26 @@ export default class Porfolio extends Component {
                 
                 
                 <React.Fragment>
-                {
-                  
+                {                 
                   this.state.onChanged === false && this.state.modalVideo !== "" &&
                     this.state.modalContents.push({
                       thumbnail: this.state.modalVideoThumbnail,
                       embedUrl: `${this.state.modalVideo}`,
                       renderItem: this._renderVideo.bind(this)
                     })
-                 }
+                    //  {this.state.modalVideo === "" && this.state.modalKey !== null &&
+                    //  <img src={`${this.state.modalKey.imgurl}`} alt={this.state.modalTitle} width="480" height="273" frameBorder="0"/>}
+                    
+                    
+
+
+
+                }
     
-                 <div className="Container">
-                 <div className="row">
-                 {
+                  <div className="Container">
+                  <div className="row">
+                  {
+
                      this.state.onChanged === false && resumeData.portfolio && resumeData.portfolio.map((item)=>{                   
                      if(item === this.state.modalKey)
                      {
@@ -123,6 +129,7 @@ export default class Porfolio extends Component {
                  } 
                 </div>
                 </div>
+                
                 
 
                   
